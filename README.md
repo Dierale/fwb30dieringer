@@ -1,4 +1,8 @@
 # fwb30dieringer
 Lab 10 for WebApps
 
-This will contain instructions on how to access the proper files in my project
+The web app can be found on heroku at the following locations:
+---
+
+[WebApp Home Page - Index](https://fwb30dieringer.herokuapp.com/)
+
