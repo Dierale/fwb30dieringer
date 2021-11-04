@@ -6,6 +6,10 @@ The web app can be found on heroku at the following locations:
 
 [WebApp Home Page - Index](https://fwb30dieringer.herokuapp.com/)
 
+- [Search Page (Waffles)](https://fwb30dieringer.herokuapp.com/waffles)
+- [Add Mods Page](https://fwb30dieringer.herokuapp.com/addmods?rows=3&cols=4) - Preloaded with rows=3 and cols=4
+- [Selector Page](https://fwb30dieringer.herokuapp.com/selector)
+
 Our Project Resource
 ---
 Waffle {\
