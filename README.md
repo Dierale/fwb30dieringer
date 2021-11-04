@@ -12,6 +12,6 @@ Waffle {\
 &nbsp;&nbsp;&nbsp; size: Int\
 &nbsp;&nbsp;&nbsp; color: String\
 &nbsp;&nbsp;&nbsp; cooking_state: String\
-&nbsp;&nbsp;&nbsp; toppings: String[]\
+&nbsp;&nbsp;&nbsp; toppings: String\
 }
 
