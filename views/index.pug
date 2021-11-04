@@ -2,4 +2,21 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  hr
+  p This is the #{title} page, hosted by Alex Dieringer
+
+  button(type='button' class='btn btn-secondary' onclick='update()') Press Me for the contents
+  br
+  br
+  div(id='target') display 
+
+  script.
+    let client_count = 0;
+    function update() {
+      client_count += 1;
+      let newText = `Value is now ${client_count}`;
+      let parentDiv = document.getElementById("target");
+      parentDiv.innerHTML = newText;
+      console.log("Debug - Update called with new innerhtml value of: \n"
+       + newText);
+    }
